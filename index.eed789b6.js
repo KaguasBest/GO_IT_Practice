@@ -1,0 +1,2 @@
+!function(){var e="theme",c={body:document.querySelector("body"),checkbox:document.querySelector(".checkbox")};c.checkbox.addEventListener("click",(function(){!0===c.checkbox.checked&&(localStorage.setItem(e,"dark-theme"),c.body.classList.add("dark"),c.body.classList.remove("light")),!1===c.checkbox.checked&&(localStorage.setItem(e,"light-theme"),c.body.classList.add("light"),c.body.classList.remove("dark"))}))}();
+//# sourceMappingURL=index.eed789b6.js.map
